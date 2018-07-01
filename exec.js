@@ -1,3 +1,3 @@
 var exec = require("child_process").exec;
 
-exec("open http://www.linkedin.com");
+exec("start http://www.linkedin.com");
