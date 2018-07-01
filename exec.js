@@ -1,11 +1,11 @@
 var exec = require("child_process").exec;
 
-exec("dir", function (err, stdout) {
+exec("git version", function (err, stdout) {
   if (err) {
     throw err;
   }
 
-  console.log("Listing Finished");
+  console.log("Git Version Executed");
 
   console.log(stdout);
 })
